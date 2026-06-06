@@ -1,0 +1,5 @@
+interface:
+  display_name: "Warehouse Mini Maintainer"
+  short_description: "Maintain the warehouse WeChat mini program"
+  brand_color: "#2563EB"
+  default_prompt: "Use $warehouse-mini-maintainer to update or review the warehouse WeChat mini program."
