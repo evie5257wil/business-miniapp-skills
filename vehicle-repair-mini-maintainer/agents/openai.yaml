@@ -1,0 +1,5 @@
+interface:
+  display_name: "Vehicle Repair Mini Maintainer"
+  short_description: "Maintain the vehicle repair mini program"
+  brand_color: "#16A34A"
+  default_prompt: "Use $vehicle-repair-mini-maintainer to update or review the vehicle repair WeChat mini program."
