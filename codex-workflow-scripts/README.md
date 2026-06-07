@@ -13,6 +13,8 @@
 - `codex-inventory.sh`：生成项目脚本与自动化清单。
 - `pre-github-sanitize.sh`：上传 GitHub 前生成脱敏副本和脱敏报告。
 - `github-publish-trace.sh`：生成 GitHub 发布留痕清单。
+- `openai-curated-skills-update.sh`：更新本机已安装的 OpenAI curated skills。
+- `install-openai-curated-skills-weekly-cron.sh`：安装每周自动更新 skills 的 cron 任务。
 
 ## 使用方式
 
@@ -35,3 +37,7 @@ zsh pre-github-sanitize.sh <file1> <file2>
 ```
 
 复核 `.sanitized/` 目录下的脱敏副本和报告后，再发布。
+
+## 当前上传范围
+
+本地当前 6 个 `.sh` 脚本已全部上传到本目录；小程序原始压缩包、真实业务数据和二进制附件不在本次上传范围内。
